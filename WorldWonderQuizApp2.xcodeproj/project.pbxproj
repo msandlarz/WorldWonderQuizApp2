@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		BD7738441B9E9FF6000038EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7738431B9E9FF6000038EB /* AppDelegate.swift */; };
-		BD7738461B9E9FF6000038EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7738451B9E9FF6000038EB /* ViewController.swift */; };
 		BD7738491B9E9FF6000038EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7738471B9E9FF6000038EB /* Main.storyboard */; };
 		BD77384B1B9E9FF6000038EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD77384A1B9E9FF6000038EB /* Images.xcassets */; };
 		BD77384E1B9E9FF6000038EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD77384C1B9E9FF6000038EB /* LaunchScreen.xib */; };
 		BD77385A1B9E9FF6000038EB /* WorldWonderQuizApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7738591B9E9FF6000038EB /* WorldWonderQuizApp2Tests.swift */; };
+		BD7738641B9EA03B000038EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7738631B9EA03B000038EB /* ViewController.swift */; };
+		BD7738661B9EA041000038EB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7738651B9EA041000038EB /* SwiftyJSON.swift */; };
+		BD7738681B9EA048000038EB /* ViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7738671B9EA048000038EB /* ViewTwo.swift */; };
+		BD77386A1B9EA04D000038EB /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7738691B9EA04D000038EB /* DataManager.swift */; };
+		BD77386D1B9EA065000038EB /* Thumbdown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD77386B1B9EA065000038EB /* Thumbdown.jpeg */; };
+		BD77386E1B9EA065000038EB /* Thumbs-Up.png in Resources */ = {isa = PBXBuildFile; fileRef = BD77386C1B9EA065000038EB /* Thumbs-Up.png */; };
+		BD7738701B9EA53E000038EB /* easylevel.json in Resources */ = {isa = PBXBuildFile; fileRef = BD77386F1B9EA53E000038EB /* easylevel.json */; };
+		BD7739061BA23DD5000038EB /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7739051BA23DD5000038EB /* DifficultyViewController.swift */; };
+		BD7739081BA23FE5000038EB /* MultiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7739071BA23FE5000038EB /* MultiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +37,21 @@
 		BD77383E1B9E9FF6000038EB /* WorldWonderQuizApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldWonderQuizApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7738421B9E9FF6000038EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD7738431B9E9FF6000038EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD7738451B9E9FF6000038EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD7738481B9E9FF6000038EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD77384A1B9E9FF6000038EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD77384D1B9E9FF6000038EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BD7738531B9E9FF6000038EB /* WorldWonderQuizApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldWonderQuizApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7738581B9E9FF6000038EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD7738591B9E9FF6000038EB /* WorldWonderQuizApp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWonderQuizApp2Tests.swift; sourceTree = "<group>"; };
+		BD7738631B9EA03B000038EB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD7738651B9EA041000038EB /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BD7738671B9EA048000038EB /* ViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTwo.swift; sourceTree = "<group>"; };
+		BD7738691B9EA04D000038EB /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BD77386B1B9EA065000038EB /* Thumbdown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thumbdown.jpeg; sourceTree = "<group>"; };
+		BD77386C1B9EA065000038EB /* Thumbs-Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumbs-Up.png"; sourceTree = "<group>"; };
+		BD77386F1B9EA53E000038EB /* easylevel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = easylevel.json; sourceTree = "<group>"; };
+		BD7739051BA23DD5000038EB /* DifficultyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
+		BD7739071BA23FE5000038EB /* MultiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiViewController.swift; path = ../MultiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +93,18 @@
 		BD7738401B9E9FF6000038EB /* WorldWonderQuizApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				BD77386F1B9EA53E000038EB /* easylevel.json */,
 				BD7738431B9E9FF6000038EB /* AppDelegate.swift */,
-				BD7738451B9E9FF6000038EB /* ViewController.swift */,
+				BD7739071BA23FE5000038EB /* MultiViewController.swift */,
+				BD7738671B9EA048000038EB /* ViewTwo.swift */,
+				BD7738691B9EA04D000038EB /* DataManager.swift */,
+				BD7738631B9EA03B000038EB /* ViewController.swift */,
+				BD7738651B9EA041000038EB /* SwiftyJSON.swift */,
 				BD7738471B9E9FF6000038EB /* Main.storyboard */,
 				BD77384A1B9E9FF6000038EB /* Images.xcassets */,
 				BD77384C1B9E9FF6000038EB /* LaunchScreen.xib */,
 				BD7738411B9E9FF6000038EB /* Supporting Files */,
+				BD7739051BA23DD5000038EB /* DifficultyViewController.swift */,
 			);
 			path = WorldWonderQuizApp2;
 			sourceTree = "<group>";
@@ -90,6 +112,8 @@
 		BD7738411B9E9FF6000038EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD77386B1B9EA065000038EB /* Thumbdown.jpeg */,
+				BD77386C1B9EA065000038EB /* Thumbs-Up.png */,
 				BD7738421B9E9FF6000038EB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +218,9 @@
 			files = (
 				BD7738491B9E9FF6000038EB /* Main.storyboard in Resources */,
 				BD77384E1B9E9FF6000038EB /* LaunchScreen.xib in Resources */,
+				BD77386E1B9EA065000038EB /* Thumbs-Up.png in Resources */,
+				BD77386D1B9EA065000038EB /* Thumbdown.jpeg in Resources */,
+				BD7738701B9EA53E000038EB /* easylevel.json in Resources */,
 				BD77384B1B9E9FF6000038EB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD7738461B9E9FF6000038EB /* ViewController.swift in Sources */,
+				BD7738661B9EA041000038EB /* SwiftyJSON.swift in Sources */,
+				BD7739061BA23DD5000038EB /* DifficultyViewController.swift in Sources */,
+				BD77386A1B9EA04D000038EB /* DataManager.swift in Sources */,
+				BD7738681B9EA048000038EB /* ViewTwo.swift in Sources */,
+				BD7738641B9EA03B000038EB /* ViewController.swift in Sources */,
 				BD7738441B9E9FF6000038EB /* AppDelegate.swift in Sources */,
+				BD7739081BA23FE5000038EB /* MultiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,78 @@
+ [
+  {
+  "id": 1,
+  "question": "In which country can you visit Chichén Itzá?",
+  "answer": "Mexico",
+  "fake_answer": [
+                  "Brazil","Columbia","Chile"
+                  ]
+  },
+  {
+  "id": 2,
+  "question": "In which city can you find the Taj Mahal?",
+  "answer": "Agra",
+  "fake_answer": [
+                  "Chennai","Mumbai","Kolkata"
+                  ]
+  },
+  {
+  "id": 3,
+  "question": "What is the tallest mountain in the world?",
+  "answer": "Mount Everest",
+  "fake_answer": [
+                  "Mount Blanc","K2","Makalu"
+                  ]
+  },
+  
+  {
+  "id": 4,
+  "question": "Which ancient wonder was not built as a tombs?",
+  "answer": "Temple of Artemis",
+  "fake_answer": [
+                  "Great Pyramid of Giza","Taj Mahal", "Mausoleum at Halicarnassus"
+                  ]
+  },
+  
+  {
+  "id": 5,
+  "question": "In which country can you see the Christ Redeemer Statue?",
+  "answer": "Brazil",
+  "fake_answer": [
+                  "Colombia","Vatican City", "Florence"
+                  ]
+  },
+  
+  
+  {
+  "id": 6,
+  "question": "In which city can you find the Colosseum?",
+  "answer": "Rome",
+  "fake_answer": [
+                  "Naples","Venice", "Florence"
+                  ]
+  },
+  
+  
+  {
+  "id": 7,
+  "question": "Machu Picchu is in Lima (Peru)",
+  "answer": false
+  },{
+  "id": 8,
+  "question": "Northern Lights are visible from space",
+  "answer": true
+  },
+  
+  {
+  "id": 9,
+  "question": "The Eiffel Tower is in Paris, France.",
+  "answer": true
+  },
+
+  {
+  "id": 10,
+  "question": "The Stonehenge monument is located in Ireland?",
+  "answer": false
+  }
+  
+]
